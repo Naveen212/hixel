@@ -6,7 +6,7 @@
     <string name="liquidity_score">Liquidity Score</string>
     <string name="leverage_score">Leverage Score</string>
     <string name="Liquidity">Liquidity</string>
-    <string name="Leverage">Leverage</string>
+    <string name="Leverage">Financial Elements</string>
     <string name="Search">Search</string>
     <string name="search_title">Search</string>
 
@@ -23,3 +23,4 @@
     <string name="quick_ratio">Quick Ratio</string>
     <string name="cash_ratio">Cash Ratio</string>
 </resources>
+
