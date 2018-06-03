@@ -55,6 +55,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.View
 
         int last_year = Calendar.getInstance().get(Calendar.YEAR) - 1;
 
+
         // TODO: Replace with an 'indicator arrow'
         holder.companyIndicator.setText(String.format(Locale.ENGLISH, "%.1f%%",
                                     presenter.getCompanies()

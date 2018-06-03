@@ -21,5 +21,6 @@ public interface CompanyContract {
         void doMeta();
         ArrayList<String> getratios1();
         void setTickerFromSearchSuggestion(String tickerFromSearchSuggestion);
+        Company getCompany();
     }
 }

@@ -14,6 +14,10 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class CompanyPresenter implements CompanyContract.Presenter {
+    public Company getCompany() {
+        return company;
+    }
+
     private Company company;
     private final CompanyContract.View companyView;
     public static ArrayList<String>ratios1;
